@@ -1,53 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background: #444;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 2rem;
-}
-
-.project {
-    margin-bottom: 2rem;
-}
-
-.project h3 {
-    margin-top: 0;
-}
-
-footer {
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de VBA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portafolio de Automatización en VBA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre], un desarrollador especializado en la automatización de tareas utilizando VBA.</p>
+    </section>
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <article class="project">
+            <h3>Proyecto 1: Gestor de Inventarios en Excel</h3>
+            <p>Descripción: Un gestor de inventarios creado en Excel utilizando VBA para automatizar el seguimiento de stock, generación de reportes y alertas de reposición.</p>
+            <p><strong>Tecnologías Utilizadas:</strong> VBA, Excel</p>
+            <p><strong>Fecha de Creación:</strong> Enero 2023</p>
+            <div class="project-media">
+                <img src="ruta/a/captura1.jpg" alt="Captura de Pantalla del Proyecto 1">
+                <img src="ruta/a/captura2.jpg" alt="Captura de Pantalla del Proyecto 1">
+            </div>
+            <p><a href="https://github.com/tuusuario/proyecto1" target="_blank">Ver Código en GitHub</a></p>
+            <p><a href="ruta/a/demo.html" target="_blank">Ver Demo en Vivo</a></p>
+        </article>
+        <article class="project">
+            <h3>Proyecto 2: Automatización de Reportes Financieros</h3>
+            <p>Descripción: Un sistema de automatización de reportes financieros que facilita la generación de informes mensuales y anuales a partir de datos contables.</p>
+            <p><strong>Tecnologías Utilizadas:</strong> VBA, Excel, PowerPoint</p>
+            <p><strong>Fecha de Creación:</strong> Marzo 2024</p>
+            <div class="project-media">
+                <img src="ruta/a/captura3.jpg" alt="Captura de Pantalla del Proyecto 2">
+                <img src="ruta/a/captura4.jpg" alt="Captura de Pantalla del Proyecto 2">
+            </div>
+            <p><a href="https://github.com/tuusuario/proyecto2" target="_blank">Ver Código en GitHub</a></p>
+            <p><a href="ruta/a/demo.html" target="_blank">Ver Demo en Vivo</a></p>
+        </article>
+        <!-- Añade más artículos de proyecto según sea necesario -->
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de <a href="mailto:[tu_email]">[tu_email]</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
